@@ -1,7 +1,11 @@
 {
   "index_name": "modyo",
   "start_urls": [
-    "https://docs.modyo.com/"
+    "https://docs.modyo.com/",
+    "variables": {
+        "lang": ["es", "en"],
+        "version": ["latest"]
+      }
   ],
   "stop_urls": [],
   "selectors": {
